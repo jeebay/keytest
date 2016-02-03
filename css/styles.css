@@ -1,12 +1,22 @@
 .player_1_img{
-	height: 400px;
-	width: auto;
+	height: 200px;
+	width: 200px;
 	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .player_2_img{
-	height: 400px;
-	width: auto;
+	height: 200px;
+	width: 200px;
 	background-repeat: no-repeat;
+	background-position: center;
 }
 
+body{
+	width: 600px;
+	height: auto;
+}
+
+.players{
+	display: inline;
+}

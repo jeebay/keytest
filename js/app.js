@@ -14,8 +14,8 @@ console.log('linked');
   var p2img = document.querySelector('.player_2_img');
 
   function initialize(){
-  	p1img.style.backgroundImage = "url(img/goku1.jpg)";
-  	p2img.style.backgroundImage = "url(img/veg1.jpg)";
+  	p1img.style.backgroundImage = "url(img/goku_left_1.jpg)";
+  	p2img.style.backgroundImage = "url(img/vegeta_right_1.jpg)";
   }
 
   function render() {
@@ -24,15 +24,15 @@ console.log('linked');
 
  
     if (state.p1 >= 0.5 && state.p1 < 1){
-    	p1img.style.backgroundImage = "url(img/goku2.jpg)";
+    	p1img.style.backgroundImage = "url(img/goku_left_2.jpg)";
     }else if (state.p1 >= 1){
-    	p1img.style.backgroundImage = "url(img/goku3.jpg)";
+    	p1img.style.backgroundImage = "url(img/goku_left_3.jpg)";
     }
 
     if (state.p2 >= 0.5 && state.p2 < 1){
-    	p2img.style.backgroundImage = "url(img/veg2.jpg)";
+    	p2img.style.backgroundImage = "url(img/vegeta_right_2.jpg)";
     }else if (state.p2 >= 1){
-    	p2img.style.backgroundImage = "url(img/veg3.jpg)";
+    	p2img.style.backgroundImage = "url(img/vegeta_right_3.jpg)";
     }
   }
 
